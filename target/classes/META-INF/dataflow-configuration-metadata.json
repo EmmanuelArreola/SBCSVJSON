@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "name": "transform.params",
+      "type": "mx.com.sixdelta.cloud.stream.bean.TransformProperties",
+      "sourceType": "mx.com.sixdelta.cloud.stream.bean.TransformProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "transform.params.csvWhithHeaders",
+      "type": "java.lang.Boolean",
+      "description": "Indicates if CSV data contains headers",
+      "sourceType": "mx.com.sixdelta.cloud.stream.bean.TransformProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "transform.params.transformTo",
+      "type": "java.lang.String",
+      "description": "Indicates the data type: CSV for CSV data, JSON for JSON data, XML for JSON data or JSON for XML data",
+      "sourceType": "mx.com.sixdelta.cloud.stream.bean.TransformProperties",
+      "defaultValue": "CSV-JSON"
+    }
+  ],
+  "hints": []
+}
