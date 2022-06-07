@@ -2,23 +2,23 @@
   "groups": [
     {
       "name": "transform.params",
-      "type": "mx.com.sixdelta.cloud.stream.bean.TransformProperties",
-      "sourceType": "mx.com.sixdelta.cloud.stream.bean.TransformProperties"
+      "type": "com.n3xgen.processor.cvsjson.cloud.stream.bean.TransformProperties",
+      "sourceType": "com.n3xgen.processor.cvsjson.cloud.stream.bean.TransformProperties"
     }
   ],
   "properties": [
     {
-      "name": "transform.params.csvWhithHeaders",
+      "name": "transform.params.csvwhithheaders",
       "type": "java.lang.Boolean",
       "description": "Indicates if CSV data contains headers",
-      "sourceType": "mx.com.sixdelta.cloud.stream.bean.TransformProperties",
+      "sourceType": "com.n3xgen.processor.cvsjson.cloud.stream.bean.TransformProperties",
       "defaultValue": true
     },
     {
-      "name": "transform.params.transformTo",
+      "name": "transform.params.transformto",
       "type": "java.lang.String",
-      "description": "Indicates the data type: CSV for CSV data, JSON for JSON data, XML for JSON data or JSON for XML data",
-      "sourceType": "mx.com.sixdelta.cloud.stream.bean.TransformProperties",
+      "description": "Indicates the data type received to a desired transformation, possibles values: CSV-JSON, JSON-CSV, XML-JSON or JSON-XML",
+      "sourceType": "com.n3xgen.processor.cvsjson.cloud.stream.bean.TransformProperties",
       "defaultValue": "CSV-JSON"
     }
   ],

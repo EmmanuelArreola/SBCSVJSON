@@ -1,6 +1,6 @@
-mx\com\sixdelta\cloud\stream\service\TransformDataService.class
-mx\com\sixdelta\cloud\stream\TransformStream.class
-mx\com\sixdelta\cloud\stream\bean\TransformProperties.class
-mx\com\sixdelta\SbcsvjsonApplication.class
+com\n3xgen\processor\cvsjson\cloud\stream\bean\TransformProperties.class
+com\n3xgen\processor\cvsjson\SbcsvjsonApplication.class
+com\n3xgen\processor\cvsjson\cloud\stream\service\TransformDataService.class
+com\n3xgen\processor\cvsjson\cloud\stream\TransformStream.class
+com\n3xgen\processor\cvsjson\cloud\stream\service\TransformDataServiceImpl.class
 META-INF\spring-configuration-metadata.json
-mx\com\sixdelta\cloud\stream\service\TransformDataServiceImpl.class

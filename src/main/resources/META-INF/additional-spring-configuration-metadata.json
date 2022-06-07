@@ -1,0 +1,14 @@
+{
+	"properties": [
+		{
+	    	"name": "transform.params.csvwhithheaders",
+			"type": "java.lang.Boolean",
+			"description": "Indicates if CSV data contains headers"
+	    },
+	    {
+			"name": "transform.params.transformto",
+			"type": "java.lang.String",
+			"description": "Indicates the data type received to a desired transformation, possibles values: CSV-JSON, JSON-CSV, XML-JSON or JSON-XML"
+	    }
+    ]
+}
