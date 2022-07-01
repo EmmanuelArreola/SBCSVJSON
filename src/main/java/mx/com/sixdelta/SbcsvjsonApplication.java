@@ -9,5 +9,4 @@ public class SbcsvjsonApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SbcsvjsonApplication.class, args);
 	}
-
 }

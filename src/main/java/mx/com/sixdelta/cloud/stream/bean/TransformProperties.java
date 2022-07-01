@@ -18,14 +18,14 @@ public class TransformProperties {
 	public Boolean isCsvWhithHeaders() {
 		return csvWhithHeaders;
 	}
-	public void setCsvWhithHeaders(Boolean csvWhithHeaders) {
-		this.csvWhithHeaders = csvWhithHeaders;
+	public void setCsvWhithHeaders(Boolean csvwhithheaders) {
+		this.csvWhithHeaders = csvwhithheaders;
 	}
-	public String getTransformTo() {
+	public String getransformTo() {
 		return transformTo;
 	}
-	public void setTransformTo(String transformTo) {
-		this.transformTo = transformTo;
+	public void settransformto(String transformto) {
+		this.transformTo = transformto;
 	}
 	
 }

@@ -8,13 +8,11 @@ import org.springframework.context.annotation.Configuration;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import lombok.extern.log4j.Log4j2;
 import mx.com.sixdelta.cloud.stream.bean.TransformProperties;
 import mx.com.sixdelta.cloud.stream.service.TransformDataService;
 import mx.com.sixdelta.cloud.stream.service.TransformDataServiceImpl;
 import reactor.core.publisher.Flux;
 
-@Log4j2
 @EnableConfigurationProperties(TransformProperties.class)
 @Configuration
 public class TransformStream {
@@ -36,13 +34,13 @@ public class TransformStream {
 			data -> {
 				TransformDataService transformer = new TransformDataServiceImpl();
 				log.info("/**********Transformation starts***************/");
-				if (transformProperties.getTransformTo().equals(CSVJSON_VALUE)) {
+				if (transformProperties.getransformTo().equals(CSVJSON_VALUE)) {
 					return transformer.transformCSVData(data, transformProperties.isCsvWhithHeaders());
-				} else if (transformProperties.getTransformTo().equals(JSONCSV_VALUE)) {
+				} else if (transformProperties.getransformTo().equals(JSONCSV_VALUE)) {
 					return transformer.transformJSONData(data);
-				} else if (transformProperties.getTransformTo().equals(XMLJSON_VALUE)) {
+				} else if (transformProperties.getransformTo().equals(XMLJSON_VALUE)) {
 					return transformer.transformXMLData(data);
-				} else if (transformProperties.getTransformTo().equals(JSONXML_VALUE)) {
+				} else if (transformProperties.getransformTo().equals(JSONXML_VALUE)) {
 					return transformer.transformJSONToXMLData(data);
 				} else {
 					return "No option available";
