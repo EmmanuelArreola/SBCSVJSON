@@ -24,7 +24,7 @@ public class TransformProperties {
 	public String getransformTo() {
 		return transformTo;
 	}
-	public void settransformto(String transformto) {
+	public void settransformTo(String transformto) {
 		this.transformTo = transformto;
 	}
 	
